@@ -1,8 +1,8 @@
 class Noircon < Formula
   desc "Monitor websites and IP addresses to see if they are reachable and send notifications"
   homepage "https://github.com/binarynoir/noircon"
-  url "https://github.com/binarynoir/noircon/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "cb74266e8028cbd322b1a74f7ecada701bd2a8ba666805c09e88c4910078ad2c"
+  url "https://github.com/binarynoir/noircon/archive/refs/tags/v1.0.2.tar.gz"
+  sha256 "6b33ff29c580f64f9367e6019890da0256b8b363706b3f68da757506e7b370c6"
 
   depends_on "bash"
   depends_on "coreutils"
