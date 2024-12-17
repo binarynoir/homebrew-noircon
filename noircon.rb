@@ -4,8 +4,8 @@ class Noircon < Formula
   url ""
   sha256 ""
 
-  depends_on "md5sha1sum"
-  depends_on "jq"
+  depends_on "bash"
+  depends_on "coreutils"
 
   def install
     bin.install "noircon"
